@@ -10,7 +10,7 @@
   <title>心海导航 - 实用网站收集处</title>
   <meta name="keywords" content="心海导航,顾盼">
   <meta name="description" content="个人收集与收藏的常用网站">
-  <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="shortcut icon" href="/images/favicon2.ico">
   
 <link rel="stylesheet" href="/css/hclonely.css">
 <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic.css">
@@ -44,14 +44,14 @@
   <meta property="og:description" content="个人收集与收藏的常用网站">
   <meta property="og:site_name" content="心海导航 - 实用网站收集处">
   
-  <meta property="og:image" content="/images/webstack_banner_cn.png">
+  <meta property="og:image" content="/images/dark.png">
   
   <!-- / Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="心海导航 - 实用网站收集处">
   <meta name="twitter:description" content="个人收集与收藏的常用网站">
   
-  <meta name="twitter:image" content="/images/webstack_banner_cn.png">
+  <meta name="twitter:image" content="/images/dark.png">
   
   
   <!-- 直接添加html内容即可 -->
@@ -68,10 +68,10 @@
     <header class="logo-env">
       <div class="logo">
         <a href="/index.html" class="logo-expanded">
-          <img src="/images/logo@2x.png" width="100%" alt="" />
+          <img src="/images/white.png" width="100%" alt="" />
         </a>
         <a href="/index.html" class="logo-collapsed">
-          <img src="/images/logo-collapsed@2x.png" width="40" alt="" />
+          <img src="/images/fold.png" width="40" alt="" />
         </a>
       </div>
       <div class="mobile-menu-toggle visible-xs">
@@ -87,11 +87,36 @@
       
       <li>
         
-          <a href="#常用工具" class="smooth">
-            
-            <i class="far fa-star"></i>
-            <span class="title">常用工具</span>
+        <a class="fas fa-angle-down" style="cursor: pointer;">
+          
+            <i class="fa fa-bookmark"></i>
+            <span class="title">常用</span>
           </a>
+          
+          <ul>
+            
+            <li>
+              <a href="#常用" class="smooth">
+                <i class="fa fa-bookmark"></i>
+                <span class="title">常用</span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#视频" class="smooth">
+                <i class="fa fa-film"></i>
+                <span class="title">视频</span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="#新闻" class="smooth">
+                <i class="fa fa-coffee"></i>
+                <span class="title">新闻</span>
+              </a>
+            </li>
+            
+          </ul>
           
       </li>
       
@@ -99,8 +124,8 @@
         
         <a class="fas fa-angle-down" style="cursor: pointer;">
           
-            <i class="fas fa-tools"></i>
-            <span class="title">其他工具</span>
+            <i class="fa fa-video-camera"></i>
+            <span class="title">视频</span>
           </a>
           
           <ul>
@@ -131,19 +156,6 @@
         </a>
       </li>
       
-      
-      <li>
-        <a href="javascript:void(0)">
-          <i class="fas fa-eye"></i>
-          <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span></span>
-        </a>
-      </li>
-      <li>
-        <a href="javascript:void(0)">
-          <i class="fas fa-users"></i>
-          <span id="busuanzi_container_site_uv">本站总访客数<span id="busuanzi_value_site_uv"></span></span>
-        </a>
-      </li>
       
     </ul>
   </div>
@@ -179,8 +191,6 @@
       </li>
     </ul>
     
-    <a target="_blank" rel="noopener" href="https://github.com/HCLonely/hexo-theme-webstack" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
-    
     </nav>
     
     <section class="sousuo">
@@ -209,52 +219,69 @@
     
     
     
-    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="常用工具"></i>常用工具</h4>
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="常用"></i>常用</h4>
 <div class="row">
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.baidu.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.baidu.com/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+          <img data-src="https://www.baidu.com/favicon.ico" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
+            <strong>百度</strong>
           </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
+          <p class="overflowClip_2">最大的中文搜索引擎</p>
         </div>
       </div>
     </div>
   </div>
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://weibo.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://weibo.com/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+          <img data-src="https://weibo.com/favicon.ico" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
+            <strong>新浪微博</strong>
           </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
+          <p class="overflowClip_2">随时随地发现新鲜事！微博带你欣赏世界上每一个精彩瞬间，了解每一个幕后故事。分享你想表达的，让全世界都能听到你的心声！</p>
         </div>
       </div>
     </div>
   </div>
   
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://github.com/">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://map.baidu.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://map.baidu.com/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/github.png" class="lozad img-circle" width="40">
+          <img data-src="https://map.baidu.com/favicon.ico" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>Github</strong>
+            <strong>百度地图</strong>
           </a>
-          <p class="overflowClip_2">面向开源及私有软件项目的托管平台。</p>
+          <p class="overflowClip_2">科技让出行更简单</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.zhihu.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.zhihu.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://www.zhihu.com/favicon.ico" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>知乎</strong>
+          </a>
+          <p class="overflowClip_2">有问题上知乎</p>
         </div>
       </div>
     </div>
@@ -262,6 +289,165 @@
   
 </div>
 <br />
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="视频"></i>视频</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://v.qq.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://v.qq.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://v.qq.com/favicon.ico" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>腾讯视频</strong>
+          </a>
+          <p class="overflowClip_2">中国领先的在线视频媒体平台,海量高清视频在线观看</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.iqiyi.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.iqiyi.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://www.iqiyi.com/favicon.ico" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>爱奇艺</strong>
+          </a>
+          <p class="overflowClip_2">在线视频网站-海量正版高清视频在线观看</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youku.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youku.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=389012879,857435161&amp;fm=26&amp;gp=0.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>优酷</strong>
+          </a>
+          <p class="overflowClip_2">这世界很酷</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.bilibili.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.bilibili.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://www.bilibili.com/favicon.ico" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>哔哩哔哩</strong>
+          </a>
+          <p class="overflowClip_2">中国年轻世代高度聚集的文化社区和视频平台</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.youtube.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.youtube.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://5b0988e595225.cdn.sohucs.com/q_70,c_zoom,w_640/images/20170830/b9f164b291f046f5807626765004e04d.jpeg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>Youtube</strong>
+          </a>
+          <p class="overflowClip_2">油管</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+    
+    
+    <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="新闻"></i>新闻</h4>
+<div class="row">
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.huanqiu.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.huanqiu.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://rs2.huanqiucdn.cn/huanqiu/image/www/index/new_logo.png" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>环球网</strong>
+          </a>
+          <p class="overflowClip_2">大型中英文双语新闻门户网站、中央级综合性网络新闻媒体。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.people.com.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.people.com.cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="http://www.people.com.cn/favicon.ico" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>人民网</strong>
+          </a>
+          <p class="overflowClip_2">《人民日报》建设的以新闻为主的大型网上信息发布平台,也是互联网上最大的中文和多语种新闻网站之一。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://www.gov.cn/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://www.gov.cn/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="http://www.gov.cn/govweb/xhtml/2016gov/images/public/logo.jpg" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>中国政府网</strong>
+          </a>
+          <p class="overflowClip_2">中央人民政府门户网站</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-3">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.cctv.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.cctv.com/">
+      <div class="xe-comment-entry">
+        <a class="xe-user-img">
+          <img data-src="https://www.cctv.com/favicon.ico" class="lozad img-circle" width="40">
+        </a>
+        <div class="xe-comment">
+          <a href="#" class="xe-user-name overflowClip_1">
+            <strong>CCTV</strong>
+          </a>
+          <p class="overflowClip_2">世界就在眼前</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<br />
+    
     
     
     
@@ -329,13 +515,13 @@
     <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://blog.hclonely.com/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog.hclonely.com/">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="/images/logos/myBlog.png" class="lozad img-circle" width="40">
+          <img data-src="/images/logos/headimage.jpg" class="lozad img-circle" width="40">
         </a>
         <div class="xe-comment">
           <a href="#" class="xe-user-name overflowClip_1">
-            <strong>HCLonely Blog</strong>
+            <strong>顾盼博客</strong>
           </a>
-          <p class="overflowClip_2">一个懒人的博客。</p>
+          <p class="overflowClip_2">拥有愉快生活，储存十吨热爱。</p>
         </div>
       </div>
     </div>
@@ -356,7 +542,7 @@
     <p>
       
       &copy; 2020 - 2021
-      <a href="javascript:void(0);"><strong>顾盼</strong></a> | Design by <a href="http://viggoz.com" target="_blank"><strong>Viggo</strong></a> | Power by <a href="https://hexo.io/" target="_blank"><strong>Hexo</strong></a> & <a href="https://github.com/HCLonely/hexo-theme-webstack/" target="_blank"><strong>hexo-theme-webstack</strong></a>
+      <a href="https://gupan.site" target="_blank"><strong>顾盼</strong></a> | 
     </p>
     
     <div class="go-up">
@@ -377,8 +563,6 @@
 <script src="/js/xenon-toggles.min.js"></script>
 <script src="/js/xenon-custom.min.js"></script>
 
-
-<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 <textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arimo, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 18.5714px; width: 53px;" class="autosizejs" id="autosizejs"></textarea>
